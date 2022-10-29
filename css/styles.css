@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.date-time-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.date-container {
+	width: 10rem;
+	height: 10rem;
+	background-color: #222;
+	color: whitesmoke;
+	text-align: center;
+	box-shadow: 0 4px 8px gray;
+}
+
+.month {
+	background: red;
+	padding: 6px;
+	font-weight: 500;
+	font-size: 1.3rem;
+}
+
+.bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.year {
+	font-size: 1rem;
+	margin-top: 5px;
+}
+
+.day-number {
+	font-size: 4rem;
+}
+
+.day {
+	font-size: 1rem;
+}
+
+.time-container {
+	text-align: center;
+	background: red;
+	padding: 6px;
+	color: whitesmoke;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
